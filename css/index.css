@@ -386,15 +386,20 @@ span {
 
 .test-row .test-column {
   flex: 1 1 40rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .test-box .test-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
-  border-radius: 0.6rem;
-  width: 310px;
-  height: 480px;
-  padding: 2rem;
+  border-radius: 1.6rem;
+  width: 290px;
+  height: 460px;
+  padding: 1rem;
 }
 
 .test-img img {
@@ -406,11 +411,11 @@ span {
 
 .test-img .test-circle {
   position: absolute;
-  top: 18%;
-  left: 48%;
+  top: 17%;
+  left: 47.5%;
   transform: translate(-50%, -50%) rotate(0);
-  width: 55%;
-  height: 36%;
+  width: 54%;
+  height: 34%;
   border-radius: 50%;
   border-top: 0.2rem solid var(--second-bg-color);
   border-left: 0.2rem solid var(--main-color);
@@ -420,7 +425,7 @@ span {
 
 .test-avatar .descript-avatar h3 {
   font-size: 20px;
-  padding-top: 14px;
+  padding-top: 6px;
   padding-left: 30px;
 }
 
