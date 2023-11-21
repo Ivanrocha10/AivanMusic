@@ -402,8 +402,8 @@ span {
   position: relative;
   border: 0.2rem solid var(--main-color);
   border-radius: 1.6rem;
-  width: 290px;
-  height: 460px;
+  width: 530px;
+  height: 270px;
   padding: 1rem;
   z-index: 1;
   overflow: hidden;
@@ -425,36 +425,33 @@ span {
   width: 100%;
 }
 
-.test-img img {
-  width: 50%;
+.test-avatar img {
+  width: 30%;
   border-radius: 50%;
   border: 0.2rem solid var(--main-color);
-  margin-left: 60px;
+  margin-left: 5px;
+  margin-top: 15px;
 }
 
-.test-img .test-circle {
+.test-avatar .text-avatar {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 15px 30px 0px 40px;
   position: absolute;
-  top: 17%;
-  left: 47.5%;
-  transform: translate(-50%, -50%) rotate(0);
-  width: 54%;
-  height: 34%;
-  border-radius: 50%;
-  border-top: 0.2rem solid var(--second-bg-color);
-  border-left: 0.2rem solid var(--main-color);
-  border-right: 0.2rem solid var(--main-color);
-  border-bottom: 0.2rem solid var(--second-bg-color);
+  color: var(--text-color);
+  display: inline-flex;
 }
 
 .test-avatar .descript-avatar h3 {
   font-size: 20px;
-  padding-top: 6px;
-  padding-left: 30px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 .test-avatar .descript-avatar span {
   font-size: 15px;
-  padding-left: 30px;
+  padding-left: 5px;
+  position: absolute;
 }
 
 .test-avatar .descript-avatar p {
