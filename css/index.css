@@ -136,12 +136,14 @@ section {
 }
 
 .btn-box .btn:hover,
-.btn1:hover {
+.btn1:hover,
+.btn2:hover {
   color: var(--main-color);
 }
 
 .btn-box .btn::before,
-.btn1::before {
+.btn1::before,
+.btn2::before {
   content: '';
   position: absolute;
   top: 0;
@@ -154,7 +156,8 @@ section {
 }
 
 .btn-box .btn:hover::before,
-.btn1:hover::before {
+.btn1:hover::before,
+.btn2:hover::before {
   width: 100%;
   background: var(--bg-color);
 }
@@ -276,7 +279,8 @@ span {
   background: var(--second-bg-color);
 }
 
-.btn1 {
+.btn1,
+.btn2 {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -522,6 +526,15 @@ span {
   color: var(--text-color);
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+
 .contact form .focus {
   position: absolute;
   top: 0;
@@ -551,9 +564,10 @@ span {
   resize: none;
 }
 
-.contact form .btn-box.btns .btn {
+.contact form .btn-box.btns .btn2 {
   cursor: pointer;
 }
+
 
 .footer {
   display: flex;
