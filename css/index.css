@@ -403,7 +403,7 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 1.6rem;
   width: 530px;
-  height: 270px;
+  height: 260px;
   padding: 1rem;
   z-index: 1;
   overflow: hidden;
@@ -428,7 +428,7 @@ span {
 .test-avatar img {
   width: 30%;
   border-radius: 50%;
-  border: 0.2rem solid var(--main-color);
+  border: 0.3rem solid var(--main-color);
   margin-left: 5px;
   margin-top: 15px;
 }
@@ -436,7 +436,7 @@ span {
 .test-avatar .text-avatar {
   font-size: 1.3rem;
   text-align: justify;
-  padding: 15px 30px 0px 40px;
+  padding: 50px 30px 0px 40px;
   position: absolute;
   color: var(--text-color);
   display: inline-flex;
@@ -445,13 +445,14 @@ span {
 .test-avatar .descript-avatar h3 {
   font-size: 20px;
   padding-top: 10px;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .test-avatar .descript-avatar span {
   font-size: 15px;
-  padding-left: 5px;
+  padding-left: 15px;
   position: absolute;
+  color: red;
 }
 
 .test-avatar .descript-avatar p {
@@ -459,6 +460,25 @@ span {
   width: 230px;
   padding-left: 30px;
   padding-top: 10px;
+}
+
+.iconLeft,
+.iconRight {
+  position: absolute;
+  font-size: 5rem;
+  margin: 24.8rem 0rem 0rem -130rem;
+  transition: 0.5s;
+  color: var(--main-color);
+}
+
+.iconLeft:hover,
+.iconRight:hover {
+  color: var(--bg-color);
+  cursor: pointer;
+}
+
+.iconRight {
+  margin: 24.8rem 0rem 0rem 130rem;
 }
 
 .contact {
@@ -570,7 +590,7 @@ span {
   height: 100%;
   background: var(--second-bg-color);
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer-iconTop a:hover::before {
@@ -580,9 +600,9 @@ span {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: var(--bg-color);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer-iconTop a:hover i {
   color: var(--main-color);
-} 
+}
