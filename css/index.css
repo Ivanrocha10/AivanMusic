@@ -470,7 +470,7 @@ span {
 .iconRight {
   position: absolute;
   font-size: 5rem;
-  margin: 24.8rem 0rem 0rem -130rem;
+  margin: 24.8rem 0rem 0rem -120rem;
   transition: 0.5s;
   color: var(--main-color);
 }
@@ -482,7 +482,7 @@ span {
 }
 
 .iconRight {
-  margin: 24.8rem 0rem 0rem 130rem;
+  margin: 24.8rem 0rem 0rem 120rem;
 }
 
 .contact {
