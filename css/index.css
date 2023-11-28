@@ -730,6 +730,9 @@ input[type='number'] {
   }
 }
 
+
+/* 462px */
+
 @media (max-width: 462px) {
   .home-content h1 {
     font-size: 5.2rem;
@@ -753,11 +756,9 @@ input[type='number'] {
   }
 }
 
-@media (max-width: 371px) {
-  .header {
-    width: 53%;
-  }
+/* 371px */
 
+@media (max-width: 371px) {
   .home {
     justify-content: center;
     background: url(/assets/jazz-media.png) no-repeat;
@@ -825,4 +826,9 @@ input[type='number'] {
     font-size: 1.2rem;
     padding: 10px 15px 0px 35px;
   }
+
+  .iconRight,
+  .iconLeft {
+    display: none;
+}
 }
