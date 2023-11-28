@@ -730,20 +730,76 @@ input[type='number'] {
   }
 }
 
-
 /* 462px */
 
 @media (max-width: 462px) {
+  .home {
+    background: url(/assets/jazz-media.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) opacity(1);
+  }
+
   .home-content h1 {
     font-size: 5.2rem;
+  }
+
+  .btn-box .btn {
+    padding: 0 205px;
+  }
+
+  .home-sci {
+    bottom: 5rem;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
+  .test-box .test-content {
+    width: 425px;
+    height: 215px;
   }
 
   .education {
     padding: 10rem 4% 5rem 5%;
   }
 
+  .education-content .content .course {
+    margin: -24px 265px;
+  }
+
+  .education-content .content p {
+    text-align: justify;
+  }
+
   .contact form .input-box .input-field {
     width: 100%;
+  }
+
+
+  .test-avatar .text-avatar {
+    padding: 10px 20px 0px 30px;
+    font-size: 1.6rem;
+}
+
+.test-avatar img {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.test-avatar .descript-avatar h3 {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.test-avatar .descript-avatar span {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+  .iconRight,
+  .iconLeft {
+    display: none;
   }
 
   .footer {
@@ -764,7 +820,7 @@ input[type='number'] {
     background: url(/assets/jazz-media.png) no-repeat;
     background-size: cover;
     background-position: left;
-    filter: brightness(.8) opacity(1);
+    filter: brightness(0.8) opacity(1);
   }
 
   .home-content {
@@ -830,5 +886,5 @@ input[type='number'] {
   .iconRight,
   .iconLeft {
     display: none;
-}
+  }
 }
