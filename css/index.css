@@ -724,10 +724,6 @@ input[type='number'] {
     flex-direction: column;
   }
 
-  .home-sci {
-    width: 160px;
-  }
-
   .home-sci a {
     width: 38px;
     height: 38px;
@@ -760,6 +756,7 @@ input[type='number'] {
 @media (max-width: 371px) {
   .home {
     justify-content: center;
+    /* background: none; */
   }
 
   .home-content {
@@ -771,5 +768,18 @@ input[type='number'] {
 
   .home-content h1 {
     font-size: 5rem;
+  }
+
+  .btn-box .btn {
+    padding: 0 150px;
+  }
+
+  /* .test-avatar img {
+    display: none;
+  } */
+
+  .test-box .test-content {
+    width: 340px;
+    height: 200px;
   }
 }
