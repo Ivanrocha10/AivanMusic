@@ -744,14 +744,14 @@ input[type='number'] {
     font-size: 5.2rem;
   }
 
-  .btn-box .btn {
-    padding: 0 205px;
-  }
-
   .home-sci {
     bottom: 5rem;
     justify-content: space-around;
     flex-direction: row-reverse;
+  }
+
+  .btn-box .btn {
+    padding: 0 205px;
   }
 
   .test-box .test-content {
@@ -771,35 +771,34 @@ input[type='number'] {
     text-align: justify;
   }
 
-  .contact form .input-box .input-field {
-    width: 100%;
-  }
-
-
   .test-avatar .text-avatar {
     padding: 10px 20px 0px 30px;
     font-size: 1.6rem;
-}
+  }
 
-.test-avatar img {
-  margin-left: 0;
-  margin-top: 10px;
-}
+  .test-avatar img {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 
-.test-avatar .descript-avatar h3 {
-  font-size: 15px;
-  padding-left: 5px;
-  padding-top: 5px;
-}
+  .test-avatar .descript-avatar h3 {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
 
-.test-avatar .descript-avatar span {
-  font-size: 10px;
-  padding-left: 5px;
-}
+  .test-avatar .descript-avatar span {
+    font-size: 10px;
+    padding-left: 5px;
+  }
 
   .iconRight,
   .iconLeft {
     display: none;
+  }
+
+  .contact form .input-box .input-field {
+    width: 100%;
   }
 
   .footer {
