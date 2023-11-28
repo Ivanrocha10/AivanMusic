@@ -737,7 +737,6 @@ input[type='number'] {
     background: url(/assets/jazz-media.png) no-repeat;
     background-size: cover;
     background-position: center;
-    filter: brightness(0.8) opacity(1);
   }
 
   .home-content h1 {
