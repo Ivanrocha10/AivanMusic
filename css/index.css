@@ -634,6 +634,11 @@ input[type='number'] {
   html {
     font-size: 55%;
   }
+
+  .iconLeft,
+  .iconRight {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
@@ -647,6 +652,11 @@ input[type='number'] {
 
   .home {
     padding: 0 4%;
+  }
+
+  .iconLeft,
+  .iconRight {
+    display: none;
   }
 
   .footer {
@@ -712,6 +722,11 @@ input[type='number'] {
     transform: translateX(0);
     transition-delay: 0.25s;
   }
+
+  .iconLeft,
+  .iconRight {
+    display: none;
+  }
 }
 
 @media (max-width: 520px) {
@@ -727,6 +742,11 @@ input[type='number'] {
   .home-sci a {
     width: 38px;
     height: 38px;
+  }
+
+  .iconLeft,
+  .iconRight {
+    display: none;
   }
 }
 
