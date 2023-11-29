@@ -734,7 +734,7 @@ input[type='number'] {
 
 @media (max-width: 462px) {
   .home {
-    background: url(/assets/jazz-media.png) no-repeat;
+    background: url(/assets/jazz-media7.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -768,6 +768,10 @@ input[type='number'] {
 
   .education-content .content p {
     text-align: justify;
+  }
+
+  .education .education-row {
+    display: block;
   }
 
   .test-avatar .text-avatar {
@@ -815,10 +819,9 @@ input[type='number'] {
 @media (max-width: 371px) {
   .home {
     justify-content: center;
-    background: url(/assets/jazz-media.png) no-repeat;
+    background: url(/assets/jazz-media1.png) no-repeat;
     background-size: cover;
-    background-position: left;
-    filter: brightness(0.8) opacity(1);
+    background-position: center;
   }
 
   .home-content {
@@ -858,6 +861,10 @@ input[type='number'] {
   .education-content .content p {
     padding-top: 1rem;
     text-align: justify;
+  }
+
+  .education .education-row {
+    display: block;
   }
 
   .test-avatar .descript-avatar h3 {
