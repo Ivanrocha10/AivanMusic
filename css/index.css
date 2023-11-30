@@ -729,8 +729,6 @@ input[type='number'] {
   }
 }
 
-/* 520px */
-
 @media (max-width: 520px) {
   html {
     font-size: 50%;
@@ -751,8 +749,6 @@ input[type='number'] {
     display: none;
   }
 }
-
-/* 462px */
 
 @media (max-width: 425px) {
   .home {
@@ -835,8 +831,6 @@ input[type='number'] {
     text-align: center;
   }
 }
-
-/* 371px */
 
 @media (max-width: 375px) {
   .home {
