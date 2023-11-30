@@ -729,6 +729,8 @@ input[type='number'] {
   }
 }
 
+/* 520px */
+
 @media (max-width: 520px) {
   html {
     font-size: 50%;
@@ -752,7 +754,7 @@ input[type='number'] {
 
 /* 462px */
 
-@media (max-width: 462px) {
+@media (max-width: 425px) {
   .home {
     background: url(/assets/jazz-media7.png) no-repeat;
     background-size: cover;
@@ -836,7 +838,7 @@ input[type='number'] {
 
 /* 371px */
 
-@media (max-width: 371px) {
+@media (max-width: 375px) {
   .home {
     justify-content: center;
     background: url(/assets/jazz-media1.png) no-repeat;
@@ -913,3 +915,15 @@ input[type='number'] {
     display: none;
   }
 }
+
+/* 
+@media (max-width: 320px) {}
+@media (max-width: 375px) {}
+@media (max-width: 425px) {}
+@media (max-width: 520px) {}
+@media (max-width: 768px) {}
+@media (max-width: 991px) {}
+@media (max-width: 1024px) {}
+@media (max-width: 1200px) {}
+@media (max-width: 1440px) {}
+*/
