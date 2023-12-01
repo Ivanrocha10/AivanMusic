@@ -672,11 +672,11 @@ input[type='number'] {
 
   .about-content h3 {
     font-size: 4rem;
-}
+  }
 
-.about-content p {
-  font-size: 2rem;
-}
+  .about-content p {
+    font-size: 2rem;
+  }
 
   .education-content .content .course {
     margin: -25px 280px;
@@ -687,12 +687,10 @@ input[type='number'] {
     height: 245px;
   }
 
-
   .test-avatar .text-avatar {
     font-size: 1.5rem;
     padding: 15px 25px 0px 30px;
-}
-
+  }
 
   .mulher1,
   .homem1 {
@@ -775,28 +773,85 @@ input[type='number'] {
   }
 }
 
-
-
-
-
-
-
 @media (max-width: 991px) {
-  .header {
-    padding: 2rem 4%;
-  }
-
-  section {
-    padding: 10rem 4% 2rem;
-  }
-
+  
   .home {
-    padding: 0 4%;
+    background: url(/assets/jazz-media7.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+  
+  
+  .home-content p {
+    font-size: 1.7rem;
+  }
+
+  .home-sci {
+    bottom: 4rem;
+    width: 315px;
+    justify-content: space-between;
+  }
+
+  .home-sci a {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .about-content h3 {
+    font-size: 3rem;
+  }
+
+  .about-content p {
+    font-size: 1.9rem;
+  }
+
+  .education-content .content .course {
+    margin: -24px 205px;
+  }
+
+  .education-content .content p {
+    font-size: 1.5rem;
+  }
+
+  .test-box .test-content {
+    width: 385px;
+    height: 200px;
+  }
+
+  .test-avatar img {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .test-avatar .descript-avatar h3 {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+
+  .test-avatar .descript-avatar span {
+    font-size: 10px;
+    padding-left: 0px;
+  }
+
+  .test-avatar .text-avatar {
+    font-size: 1.3rem;
+    padding: 10px 25px 0px 25px;
+  }
+
+  .mulher1,
+  .homem1 {
+    display: block;
   }
 
   .iconLeft,
   .iconRight {
-    display: none;
+    margin: 18.2rem 0rem 0rem -103rem;
+  }
+
+  .iconRight {
+    margin: 18.2rem 0rem 0rem 102rem;
   }
 
   .footer {
