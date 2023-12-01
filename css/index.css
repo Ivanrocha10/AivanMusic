@@ -628,10 +628,9 @@ input[type='number'] {
   color: var(--main-color);
 }
 
-/* MEDIA QUERY */
+/* @MEDIA */
 
 /* 1200px */
-
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -694,7 +693,14 @@ input[type='number'] {
   }
 }
 
+/* 1024px */
 @media (max-width: 1024px) {
+  .home {
+    background: url(/assets/jazz-media1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
   .home-content p {
     font-weight: 500;
   }
@@ -746,8 +752,14 @@ input[type='number'] {
   .test-avatar .text-avatar {
     font-size: 1.5rem;
     padding: 15px 25px 0px 30px;
+  }
 }
-}
+
+
+
+
+
+
 
 @media (max-width: 991px) {
   .header {
