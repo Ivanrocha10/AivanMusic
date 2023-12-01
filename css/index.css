@@ -670,6 +670,14 @@ input[type='number'] {
     font-size: 25px;
   }
 
+  .about-content h3 {
+    font-size: 4rem;
+}
+
+.about-content p {
+  font-size: 2rem;
+}
+
   .education-content .content .course {
     margin: -25px 280px;
   }
@@ -679,13 +687,25 @@ input[type='number'] {
     height: 245px;
   }
 
+
+  .test-avatar .text-avatar {
+    font-size: 1.5rem;
+    padding: 15px 25px 0px 30px;
+}
+
+
+  .mulher1,
+  .homem1 {
+    display: none;
+  }
+
   .iconLeft,
   .iconRight {
-    margin: 23.3rem -25rem 0rem -150rem;
+    margin: 7.2rem -25rem 0rem -150rem;
   }
 
   .iconRight {
-    margin: 23.3rem 25rem 0rem 150rem;
+    margin: 7.2rem 25rem 0rem 150rem;
   }
 
   .footer-text p {
@@ -1036,6 +1056,5 @@ input[type='number'] {
 @media (max-width: 425px) {}
 @media (max-width: 520px) {}
 @media (max-width: 768px) {}
-@media (max-width: 991px) {}
 
 */
