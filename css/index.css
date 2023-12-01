@@ -773,6 +773,7 @@ input[type='number'] {
   }
 }
 
+/* 991px */
 @media (max-width: 991px) {
   
   .home {
