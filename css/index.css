@@ -691,15 +691,63 @@ input[type='number'] {
 
   .footer-text p {
     font-size: 1.8rem;
+  }
 }
-}
-
-
 
 @media (max-width: 1024px) {
-  
-}
+  .home-content p {
+    font-weight: 500;
+  }
 
+  .btn-box .btn {
+    padding: 0 265px;
+  }
+
+  .home-sci {
+    bottom: 7rem;
+    width: 340px;
+  }
+
+  .about-content h3 {
+    font-size: 4rem;
+  }
+
+  .about-content p {
+    font-size: 2rem;
+  }
+
+  .education-content .content .course {
+    margin: -24px 220px;
+  }
+
+  .education-content .content h3 {
+    padding-left: 10px;
+  }
+
+  .education-content .content p {
+    padding: 5px 10px;
+    text-align: justify;
+  }
+
+  .mulher1,
+  .homem1 {
+    display: none;
+  }
+
+  .iconLeft,
+  .iconRight {
+    margin: 23.3rem 0rem 0rem -75rem;
+  }
+
+  .iconRight {
+    margin: 23.3rem 25rem 0rem 95rem;
+  }
+
+  .test-avatar .text-avatar {
+    font-size: 1.5rem;
+    padding: 15px 25px 0px 30px;
+}
+}
 
 @media (max-width: 991px) {
   .header {
