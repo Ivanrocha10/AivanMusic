@@ -630,7 +630,12 @@ input[type='number'] {
 
 /* @MEDIA */
 
+
+
+
 /* 1200px */
+
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -712,9 +717,11 @@ input[type='number'] {
 }
 
 /* 1024px */
+
+
 @media (max-width: 1024px) {
   .home {
-    background: url(/assets/jazz-media1.png) no-repeat;
+    background: url(/assets/medias/jazz-media1.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -773,11 +780,13 @@ input[type='number'] {
   }
 }
 
+
+
 /* 991px */
 @media (max-width: 991px) {
   
   .home {
-    background: url(/assets/jazz-media7.png) no-repeat;
+    background: url(/assets/medias/jazz-media7.png) no-repeat;
     background-size: cover;
     background-position: top;
 }
@@ -832,13 +841,13 @@ input[type='number'] {
   }
 
   .test-avatar .descript-avatar span {
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 0px;
   }
 
   .test-avatar .text-avatar {
     font-size: 1.3rem;
-    padding: 10px 25px 0px 25px;
+    padding:5px 25px 0px 25px;
   }
 
   .mulher1,
@@ -859,6 +868,9 @@ input[type='number'] {
     padding: 2rem 4%;
   }
 }
+
+
+
 
 @media (max-width: 768px) {
   .header {
@@ -1106,11 +1118,10 @@ input[type='number'] {
   }
 }
 
-/* 
-@media (max-width: 320px) {}
-@media (max-width: 375px) {}
-@media (max-width: 425px) {}
-@media (max-width: 520px) {}
-@media (max-width: 768px) {}
+@media (max-width: 320px) {
+  
+}
 
-*/
+
+
+
