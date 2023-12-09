@@ -289,7 +289,8 @@ span {
 }
 
 .btn1,
-.btn2 {
+.btn2,
+.btnPlus {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -630,11 +631,7 @@ input[type='number'] {
 
 /* @MEDIA */
 
-
-
-
 /* 1200px */
-
 
 @media (max-width: 1200px) {
   html {
@@ -718,7 +715,6 @@ input[type='number'] {
 
 /* 1024px */
 
-
 @media (max-width: 1024px) {
   .home {
     background: url(/assets/medias/jazz-media1.png) no-repeat;
@@ -780,18 +776,14 @@ input[type='number'] {
   }
 }
 
-
-
 /* 991px */
 @media (max-width: 991px) {
-  
   .home {
     background: url(/assets/medias/jazz-media7.png) no-repeat;
     background-size: cover;
     background-position: top;
-}
-  
-  
+  }
+
   .home-content p {
     font-size: 1.7rem;
   }
@@ -847,7 +839,7 @@ input[type='number'] {
 
   .test-avatar .text-avatar {
     font-size: 1.3rem;
-    padding:5px 25px 0px 25px;
+    padding: 5px 25px 0px 25px;
   }
 
   .mulher1,
@@ -869,16 +861,11 @@ input[type='number'] {
   }
 }
 
-
-
+/*  */
 
 @media (max-width: 768px) {
   .header {
     background: var(--bg-color);
-  }
-
-  #menu-icon {
-    display: block;
   }
 
   .navbar {
@@ -920,7 +907,7 @@ input[type='number'] {
   .navbar a {
     display: block;
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 3rem 4.5rem;
     transform: translateX(-20rem);
     transition: 0.25s ease;
     transition-delay: 0s;
@@ -931,9 +918,107 @@ input[type='number'] {
     transition-delay: 0.25s;
   }
 
+  .home {
+    background: url(/assets/medias/jazz-media5.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .home p {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-weight: 400;
+  }
+
+  .btn-box .btn {
+    padding: 0 270px;
+  }
+
+  .home-sci {
+    bottom: 1.7rem;
+    width: 250px;
+  }
+
+  .home-sci a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .about-content h3 {
+    font-size: 2.8rem;
+  }
+
+  .about-content p {
+    font-size: 1.6rem;
+  }
+
+  .education-column .education-box {
+    margin: 0px 0px 0px 40px;
+  }
+
+  .education-content .content {
+    width: 60rem;
+  }
+
+  .education-content .content .course {
+    margin: -24px 370px;
+  }
+
+  .education .education-row {
+    gap: 0;
+  }
+
+  .mulher1,
+  .homem1 {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .test-box .test-content {
+    width: 370px;
+    height: 165px;
+  }
+
+  .test-avatar .text-avatar {
+    font-size: 1.2rem;
+    padding: 10px 15px 0px 15px;
+  }
+
+  .test-avatar .descript-avatar h3 {
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 2px;
+  }
+
+  .test-avatar .descript-avatar span {
+    font-size: 10px;
+    padding-left: 2px;
+  }
+
+  .test-avatar img {
+    margin-top: 10px;
+  }
+
+  .test-avatar img {
+    width: 25%;
+  }
+
   .iconLeft,
   .iconRight {
-    display: none;
+    margin: 14.2rem 0rem 0rem -65rem;
+  }
+
+  .iconRight {
+    margin: 14.2rem 0rem 0rem 65rem;
+  }
+
+  .footer-text p {
+    font-size: 1.6rem;
   }
 }
 
@@ -1119,9 +1204,4 @@ input[type='number'] {
 }
 
 @media (max-width: 320px) {
-  
 }
-
-
-
-
