@@ -1268,5 +1268,58 @@ input[type='number'] {
   }
 }
 
+/* 320px */
 @media (max-width: 320px) {
+  .home {
+    background: none;
+  }
+
+  .btn-box .btn {
+    padding: 0 138px;
+  }
+
+  .home-sci {
+    bottom: 3rem;
+    margin: 0px 0px 0px 25px;
+  }
+
+  .education-content .content {
+    width: 30rem;
+  }
+
+  .education-content .content .course {
+    display: none;
+  }
+
+  .test-box .test-content {
+    width: 265px;
+    height: 177px;
+  }
+
+  .test-avatar img {
+    display: none;
+  }
+
+  .test-avatar .descript-avatar h3 {
+    padding-left: 15px;
+  }
+
+  .test-avatar .descript-avatar span {
+    padding-left: 15px;
+  }
+
+  .test-avatar .text-avatar {
+    font-size: 1.2rem;
+    padding: 45px 15px 0px 15px;
+  }
+
+  .mulher1,
+  .homem1 {
+    display: flex;
+  }
+
+  .iconRight,
+  .iconLeft {
+    display: none;
+  }
 }
