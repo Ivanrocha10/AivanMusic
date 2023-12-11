@@ -1185,13 +1185,10 @@ input[type='number'] {
   }
 }
 
-
-
-
+/* 375px */
 @media (max-width: 375px) {
   .home {
-    justify-content: center;
-    background: url(/assets/jazz-media1.png) no-repeat;
+    background: url(/assets/medias/jazz-media4.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -1204,19 +1201,18 @@ input[type='number'] {
   }
 
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
-
   .home-content p {
-    margin: 2rem 0 2rem;
+    margin: 2rem 0 5rem;
   }
 
   .home-sci {
-    bottom: 3rem;
-    width: 230px;
+    bottom: 4rem;
+    width: 225px;
     flex-direction: row-reverse;
+    margin: 0px 0px 0px 40px;
   }
-
   .btn-box .btn {
     padding: 0 140px;
   }
@@ -1226,8 +1222,12 @@ input[type='number'] {
     height: 170px;
   }
 
+  .education-content .content {
+    width: 40rem;
+  }
+
   .education-content .content .course {
-    margin: -25px 185px;
+    margin: -23px 175px;
   }
 
   .education-content .content p {
@@ -1239,20 +1239,22 @@ input[type='number'] {
     display: block;
   }
 
+  .test-box .test-content {
+    width: 310px;
+    height: 170px;
+  }
+
   .test-avatar .descript-avatar h3 {
-    font-size: 15px;
-    padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 0px;
   }
 
   .test-avatar .descript-avatar span {
-    font-size: 10px;
-    padding-left: 5px;
+    font-size: 11px;
+    padding-left: 0px;
   }
 
   .test-avatar img {
-    margin-left: 0;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 
   .test-avatar .text-avatar {
