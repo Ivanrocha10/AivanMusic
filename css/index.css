@@ -109,6 +109,13 @@ section {
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 0.7px var(--main-color);
+  background-image: linear-gradient(var(--main-color), var(--main-color));
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-position: -33rem 0;
+  animation: homeBgText 5s linear infinite;
+  animation-delay: 3s;
 }
 
 .home-content p {
@@ -264,6 +271,7 @@ span {
   border-left: 0.2rem solid var(--main-color);
   border-right: 0.2rem solid var(--main-color);
   border-bottom: 0.2rem solid var(--second-bg-color);
+  animation: aboutSpinner 8s linear infinite;
 }
 
 .about-content {
@@ -1321,5 +1329,26 @@ input[type='number'] {
   .iconRight,
   .iconLeft {
     display: none;
+  }
+}
+
+/* Animation */
+
+@keyframes homeBgText {
+  0%,
+  10%,
+  100% {
+    background-position: -33rem 0;
+  }
+
+  65%,
+  85% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
